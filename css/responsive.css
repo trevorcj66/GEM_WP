@@ -1,0 +1,345 @@
+/* планшет */
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) {
+    h1, h3 {
+        font-size: 3.91vw;
+        line-height: 2.73vw;
+    }
+    h2,h4 {
+        font-size: 3.13vw;
+        line-height: 2.21vw;
+    }
+    p, h5{
+        font-size: 2.08vw;
+        line-height: 1.56vw;
+    }
+    .footer_box img{
+        width: 210%;
+        height: 210%;
+        animation: tline2 3s infinite linear;   
+    }
+    .thirdblock {
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        align-items: center;
+        margin-top: 1.61vw;
+        margin-bottom: 1.61vw;
+        width: 94.38vw;
+        height: 114vw;
+        border: 0.73vw solid #07FF00;
+      }
+    .screen {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 43.10vw;
+        width: 94.27vw;
+        border-bottom: 0.73vw solid #07FF00;    
+    }
+    .screen img {
+        width: 100%;
+        height: 100%;
+    }
+    .loudness_tracker{
+        display: flex;
+        flex-direction: column;
+        overflow: hidden;
+        margin-bottom: 2vw;
+        width: 89.06vw;
+        height: 11vw;
+    }
+}
+/* мобильная версия */
+@media only screen and (min-device-width: 320px) and (max-device-width: 480px) {
+.body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+h1, h3{
+    font-size: 4.17vw;
+    line-height: 2.92vw;
+    white-space: nowrap;
+}
+h2,h4 {
+    font-size: 5.83vw;
+    line-height: 4.17vw;
+}
+p, h5{
+    font-size: 4.79vw;
+    line-height: 3.33vw;
+}
+.firstblock {
+    display: flex;
+    overflow: hidden;
+    align-items: center;
+    flex-direction: column;
+    width: 94.58vw;
+    height: 200vw;
+  }
+/* рамка заголовка */
+.top_box {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    white-space: nowrap;
+    margin-bottom: 1.6vw;
+    width: 94.32vw;
+    height: 8.23vw; 
+    border: 0.83vw solid #07FF00;
+}
+/* окно контроллеров */
+.controller_block {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 191.25vw;
+    width: 94.32vw;
+}
+.sound_form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 1.6vw;
+    height: 94.58vw;
+    width: 93.78vw;
+    border: 0.83vw solid #07FF00;
+}
+.sound_form img {
+    width: 100%;
+    height: 100%;
+}
+/* ползунки */
+.buttons_box {
+    display: flex;
+    overflow: hidden;
+    height: 94.58vw;
+    width: 93.78vw;
+}
+.slider1_box, .slider2_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 1.09vw;
+    height: 94.38vw;
+    width: 14.17vw;
+    background-color: #07FF00;
+}
+.volume_stroke1, .volume_stroke2 {
+    display: flex;
+    align-items: center;
+    width: 3.33vw;
+    height: 80.21vw;
+    border: 1.67vw solid #000;
+    box-sizing: content-box;
+}
+.volume_box1, .volume_box2{
+    display: flex;
+    align-items: end;    
+    width: 3.33vw;
+    height: 80.21vw;
+}
+.volume_line1{
+    display: flex;   
+    width: 3.39vw;
+    height: 38.33vw;   
+    background-color: #000; 
+    animation: blackline1 4s infinite ease-in;
+}
+.volume_line2{
+    display: flex;   
+    width: 3.39vw;
+    height: 38.33vw;   
+    background-color: #000; 
+    animation: blackline2 4s infinite ease-in;
+}
+.volume_button_1 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 7.33vw;
+    height: 11.67vw;
+    background-color: #000;
+    animation: button1 4s infinite ease-in;
+}
+.volume_button_2 {
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 7.33vw;
+    height: 11.67vw;
+    background-color: #000;
+    animation: button2 4s infinite ease-in;
+}
+.wave_box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 1vw;
+    height: 94.38vw;
+    width: 62.92vw;
+    background-color: #07FF00;
+}
+.spinners_1row {
+    width: 90%;
+    display: flex;
+    margin-bottom: 6vw;
+    justify-content: space-between;
+}
+.spinners_2row {
+    width: 90%;
+    display: flex;
+    margin-bottom: 6vw;
+    justify-content: space-between;
+}
+.wave_name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2.60vw;
+    width: 90%;
+    height: 20%;
+    padding: 1.82vw 3.13vw ;
+    background-color: #07FF00;
+    border: 0.83vw solid #000;
+}
+/* второй блок */
+.secondblock {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 1.6vw;
+    width: 94.79vw;
+    height: 100vw;
+}
+.sb_row1, .sb_row2, .sb_row3, .sb_row4 {
+    display: flex;
+    flex-direction: column;
+}
+.riddim, .udigg, .lights_out, .trials, .badders, .adoreu, .oxy, .ukrap, .coco, .violent, .not_in_love, .pap_smear {
+    display: flex;
+    width: 93.5vw;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 1.25vw;
+    border: 0.83vw solid #07FF00;
+    color: #07FF00;
+    height: 7.08vw;
+}
+/* второй блок */
+.thirdblock {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 1.6vw;
+    margin-bottom: 1.6vw;
+    width: 94.38vw;
+    height: 253vw;
+    border: 0.83vw solid #07FF00;
+}
+.screen {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 48.80vw;
+    width: 94.38vw;
+    border-bottom: 0.83vw solid #07FF00;    
+}
+.timeline_border{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2.29vw;
+    height: 7.81vw;
+    width: 94.38vw;
+    border-bottom: 0.83vw solid #07FF00;
+}
+.audio_stuff {
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    height: 175vw;
+    width: 89.06vw;
+}
+.boom_box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    margin-bottom: 1.6vw;
+    height: 88.75vw;
+    width: 88.75vw;
+}
+.boom_box img {
+    width: 110%;
+    height: 100%;
+}
+.num_pad{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    margin-top: 0.4vw;
+    margin-right: 1.04vw;
+    height: 89vw;
+    width: 88.75vw;
+}
+.kick, .clap, .perc, .bass, .tune {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.20vw;
+    width: 28.13vw;
+    height: 28.13vw;
+    border: 0.83vw solid #07FF00;
+    color: #07FF00;
+    animation: pad_1 2s infinite alternate;
+}
+.snare, .hi-hat, .fx, .synth {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 1.20vw;
+    width: 28.13vw;
+    height: 28.13vw;
+    border: 0.83vw solid #07FF00;
+    background-color: #07FF00;
+    color: #000;
+    animation: pad_2 2s infinite alternate;
+}
+.footer_box {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    overflow: hidden;
+    margin-bottom: 2.29vw;
+    height: 9.23vw;
+    width: 94.38vw;
+    border: 0.83vw solid #07FF00;
+}
+.footer_box img{
+    width: 300%;
+    height: 300%;
+    animation: tline2 3s infinite linear;   
+}
+
+/* анимации */
+
+/* ползунки */
+@keyframes blackline1 {
+    0%, 100% {}
+    20% {height: 25.3vw}
+    40% {height: 45.3vw}
+    60% {height: 30.3vw}
+    80% {height: 45.3vw}
+}
+@keyframes blackline2 {
+    0%, 100% {}
+    20% {height: 45.2vw}
+    40% {height: 30.2vw}
+    60% {height: 45.2vw}
+    80% {height: 25.2vw}
+}
+}

@@ -1,0 +1,10 @@
+@import 'reset.css';
+@import 'content.css';
+@import 'responsive.css';
+@font-face {
+    font-family: "Rooftop";
+    src: local("Rooftop-Bold"),
+        url("Rooftop-Bold.ttf") format("ttf");
+        font-weight: 700;
+        font-style: normal;
+}
